@@ -7,7 +7,8 @@ import lombok.Builder;
 @Builder
 public record OrderIn(
 
-    List<OrderItemIn> items
+    List<OrderItemIn> items,
+    String accountId
 
 ) {
 

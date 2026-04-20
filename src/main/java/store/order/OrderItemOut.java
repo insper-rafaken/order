@@ -5,10 +5,9 @@ import lombok.Builder;
 @Builder
 public record OrderItemOut(
 
-    String id,
-    String idproduto,
-    Integer quantidade,
-    Double total
+    String idProduct,
+    Integer quantity,
+    Double price
 
 ) {
 

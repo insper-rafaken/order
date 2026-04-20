@@ -9,8 +9,8 @@ import lombok.Builder;
 public record OrderOut(
 
     String id,
-    LocalDateTime data,
-    String moeda,
+    LocalDateTime createdAt,
+    String currency,
     List<OrderItemOut> items,
     Double total
 

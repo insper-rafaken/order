@@ -5,8 +5,8 @@ import lombok.Builder;
 @Builder
 public record OrderItemIn(
 
-    String idproduto,
-    Integer quantidade
+    String idProduct,
+    Integer quantity
 
 ) {
 
