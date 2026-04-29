@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @FeignClient(
     name = "order",
-    url = "http://order:8080"
+    url = "${order.url}"
 )
 public interface OrderController {
 
