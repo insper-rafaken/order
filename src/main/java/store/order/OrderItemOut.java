@@ -8,7 +8,7 @@ import lombok.Builder;
 public record OrderItemOut(
 
     String id,
-    ProductRef product,
+    String productId,
     Integer quantity,
     BigDecimal total
 
