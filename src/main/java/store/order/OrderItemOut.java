@@ -1,13 +1,16 @@
 package store.order;
 
+import java.math.BigDecimal;
+
 import lombok.Builder;
 
 @Builder
 public record OrderItemOut(
 
-    String productId,
+    String id,
+    ProductRef product,
     Integer quantity,
-    Double price
+    BigDecimal total
 
 ) {
 

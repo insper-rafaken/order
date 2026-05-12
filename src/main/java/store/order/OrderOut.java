@@ -1,5 +1,6 @@
 package store.order;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -9,10 +10,9 @@ import lombok.Builder;
 public record OrderOut(
 
     String id,
-    LocalDateTime createdAt,
-    String currency,
+    LocalDateTime date,
     List<OrderItemOut> items,
-    Double total
+    BigDecimal total
 
 ) {
 
