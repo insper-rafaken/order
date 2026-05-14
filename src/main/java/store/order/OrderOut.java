@@ -12,7 +12,8 @@ public record OrderOut(
     String id,
     LocalDateTime date,
     List<OrderItemOut> items,
-    BigDecimal total
+    BigDecimal total,
+    String currency
 
 ) {
 
