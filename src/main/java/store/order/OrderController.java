@@ -29,7 +29,7 @@ public interface OrderController {
     public ResponseEntity<OrderOut> findById(
         @PathVariable String id,
         @RequestParam(required = false) String currency,
-        @RequestHeader(value = "Authorization", required = false) String authorization
+        @RequestHeader(value = "id-account", required = false) String idAccount
     );
 
 }
