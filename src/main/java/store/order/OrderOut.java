@@ -12,7 +12,8 @@ public record OrderOut(
     String date,
     List<OrderItemOut> items,
     BigDecimal total,
-    String currency
+    String currency,
+    String status
 
 ) {
 
