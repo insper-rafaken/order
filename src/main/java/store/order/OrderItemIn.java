@@ -5,7 +5,7 @@ import lombok.Builder;
 @Builder
 public record OrderItemIn(
 
-    String productId,
+    String idProduct,
     Integer quantity
 
 ) {
